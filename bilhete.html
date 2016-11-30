@@ -1,0 +1,139 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Bilhete
+</title><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body{
+            background-color: gainsboro;
+        }
+        .bilhete {
+            max-width:80%;
+            width: 80%;
+            margin: 0 auto;
+            overflow-x:hidden;
+            background-color:white;
+            font-family: 'Lucida Sans';
+            font-size: 16px;
+            position: relative;
+        }
+        
+        .bilhete span {
+            display: block;
+            line-height: 19px;
+            overflow-x:hidden;
+            font-size: 16px;
+            text-overflow:clip;
+            -o-text-overflow:clip;
+            -ms-text-overflow:clip;
+        }
+        .bilhete span em{
+            float: right;
+            padding-right:8px;
+        }
+        .bilhete h1{
+            font-size: 1.4em;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .bilhete h3{
+            font-size: 1.1em;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .bilhete .header {
+            text-align: center;
+        }
+
+        .bilhete .rodape {
+            text-align: justify;
+        }
+    </style>
+    <style media="print">
+        .btn {
+            visibility:hidden;
+        }
+        body .bilhete{
+            font-family: 'Lucida Sans';
+            font-size: 14px;
+            width: 3.25in;
+            max-width: 3.25in;
+        }
+        .bilhete span {            
+            font-size: 18px;            
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="./ImpressaoBilheteHtml.aspx?idbilhete=246" id="ctl01">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjEwMjAzMzMwMA9kFgICAw9kFgQCBQ9kFgJmDxQrAAIPFgQeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAmRkFgJmD2QWBAIBD2QWAmYPFQYFMDcvMTIFMDg6MDAGR3JlbWlvC0F0bGV0aWNvLU1HBENhc2EEMiwwMmQCAg9kFgJmDxUGBTMwLzExBTE0OjAwDU5vcmRzamFlbGxhbmQHSG9yc2VucwRDYXNhBDEsODBkAgYPD2QPEBYBZhYBFgIeDlBhcmFtZXRlclZhbHVlBQMyNDYWAQIEZGQYAQUFY3RsMDUPFCsADmRkZGRkZGQUKwACZGQCAmRkZGYC/////w9kQBSS0tb+5MziPW49YaiScZDRZgGNEX943wxZhIKp1rc=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4511853C" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAbhuknUun81w9kfRIeLCDW1lX4hhEh1VSS/xJmntOt/OOkFwEgJ0t19u45PgCaPOECEwHWZ5cMn+T6jmjRrujLqQi/L6B6ru7IKCuLNv1tpZlHtiNBkQNxTOvbrMJXNTIPBoUBGuhTnyEbJv6NslWaILT/RKgOMf5ybL2JgtdP4yw==" />
+        <div class="btn">
+            <a onclick="window.print();return false;" id="Impressora" href="javascript:__doPostBack(&#39;Impressora&#39;,&#39;&#39;)">Impressora</a>
+            <a id="imprimirApp" href="javascript:__doPostBack(&#39;imprimirApp&#39;,&#39;&#39;)">Aplicativo</a>
+            <a id="SalvarBilhete" href="javascript:__doPostBack(&#39;SalvarBilhete&#39;,&#39;&#39;)">Salvar</a>
+            <div id="socialshare" hidden="hidden">
+                <a id="whatsapplink" href="javascript:__doPostBack(&#39;whatsapplink&#39;,&#39;&#39;)">WhatsApp</a>
+                <a id="smslink" href="javascript:__doPostBack(&#39;smslink&#39;,&#39;&#39;)">SMS</a>
+            </div>
+        </div>
+        <div class="bilhete">
+            <span>=================================================================</span>
+            <h1 class="header">BETGOL</h1>
+            <span>=================================================================</span>
+            <span>Codigo: Q5J-R87Z-NB4</span>
+            <span>Apostador: teste</span>
+            <span>Data: 29/11/2016 22:13</span>
+            <span>Operador: luis filipe davila</span>
+            <span>=================================================================</span>
+            <h3>PALPITES</h3>
+            
+                    
+                    <span class="rodape">07/12 08:00 Gremio x Atletico-MG <em>Casa 2,02</em></em></span>
+                
+                    <span class="rodape">30/11 14:00 Nordsjaelland x Horsens <em>Casa 1,80</em></em></span>
+                
+                
+            <span>=================================================================</span>
+            <h3>RESUMO FINAL</h3>
+            <span>Quantidade de jogos: <em>2</em></span>
+            <span>Valor Apostado: <em>R$ 5,00</em></span>
+            <span>Retorno Previsto: <em>R$ 18,18</em></span>
+            <span>=================================================================</span>
+            <span class="rodape">Para o recebimento do premio obrigatorio apresentar este comprovante.</span>
+            <span class="header">WWW.BETGOL.IN</span>
+            <span class="header">BOA SORTE!</span>
+        </div>
+    <script type="text/javascript">
+        var idBilhete = 246
+        document.getElementById('socialshare').hidden = true;
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            document.getElementById('socialshare').hidden = false;
+        }
+        //set up the url
+        var urlWhatsapp = 'whatsapp://send?text=';
+
+        var urlSms = 'sms:;body=';
+
+        var urlImprimirApp = 'imprimirep://' + document.location.host + '/imprimir?idbilhete=';
+        //define the message text
+        var text = 'Confirmamos seu bilhete: Q5J-R87Z-NB4 Você pode consulta-lo em: ' + document.location.origin + '/consultaBilhete.aspx';
+        //encode the text
+        var encodedText = encodeURIComponent(text);
+        //find the link
+        var $whatsApp = document.getElementById('whatsapplink').href = urlWhatsapp + encodedText;
+        var $smsApp = document.getElementById('smslink').href = urlSms + encodedText;
+
+        var encodedBilheteUrl = encodeURIComponent(document.location.origin + '/consultaBilhete.aspx/GetBilhete?idbilhete=' + idBilhete);
+        var $imprimirApp = document.getElementById('imprimirApp').href = urlImprimirApp + encodedBilheteUrl;
+    </script>
+        
+    </form>
+    </body>
+</html>
